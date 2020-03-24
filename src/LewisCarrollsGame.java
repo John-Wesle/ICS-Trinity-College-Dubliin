@@ -66,7 +66,6 @@ public class LewisCarrollsGame {
         File word = new File("C:\\Users\\th3j9\\eclipse-workspace\\2.Week 8. Lewis Carroll's Game\\bin\\words.txt");
         ArrayList<String> dictionary = readDictionary(word);
         DICTIONARY = dictionary;
-        Scanner i = new Scanner(System.in);
         boolean finished = false;
         do {
             ArrayList<String> userInput = readWordList();
